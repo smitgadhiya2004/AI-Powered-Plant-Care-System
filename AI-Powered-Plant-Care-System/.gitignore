@@ -1,0 +1,30 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# Local user data / runtime databases
+users.json
+gardens.json
+*.db
+*.sqlite
+*.sqlite3
+
+# Streamlit / model caches
+.cache/
+.streamlit/credentials.toml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
